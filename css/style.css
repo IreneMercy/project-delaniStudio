@@ -37,3 +37,27 @@
 #about{
   text-transform: uppercase;
 }
+
+/* services */
+#services{
+  background-image: url(../images/s_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay2{
+  color:black;
+  opacity: 0.9.5;
+  height: auto;
+  position: relative;
+  width: auto;
+  height:auto;
+}
+
+#service-header{
+  color: white;
+  padding-top: 5%;
+}
+.service-p{
+  color: white;
+}
