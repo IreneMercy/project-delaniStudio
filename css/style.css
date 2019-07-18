@@ -1,0 +1,30 @@
+.header{
+  background-image: url(../images/h_img.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+  height:auto;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+.overlay{
+  color:transparent;
+  height: auto;
+  position: relative;
+  width: auto;
+  height: 100vh;
+}
+
+.intro{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#logo{
+  position: relative;
+  padding-top: 12.9%;
+}
+
+#mouse{padding-top:11%;}
