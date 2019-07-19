@@ -62,10 +62,6 @@ $(document).ready(function(){
     });
   });
 
-  $(".work8").mouseover(function(){
-    $("#work8box").show().mouseleave(function(){
-      $("#work8box").hide();
-    });
-  });
+// Form
 
 });
