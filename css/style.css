@@ -61,3 +61,38 @@
 .service-p{
   color: white;
 }
+
+
+/* form */
+#form{
+  background-image: url(../images/c_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+/* .form{
+  margin-left:20%;
+} */
+.input-one{
+  display: inline;
+}
+
+.input-one input{
+  width:20%;
+  background-color: transparent;
+  border: 1px solid #c0c0c0;
+}
+
+.textarea{
+  background-color: transparent;
+  border: 1px solid #c0c0c0;
+  color: white;
+}
+::placeholder{
+  color: white;
+  padding-left: 2%;
+}
+
+#social-icons{
+  padding-left:0%;
+}
