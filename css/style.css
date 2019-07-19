@@ -10,6 +10,22 @@
 
 }
 
+.container-fluid{
+font-family: 'Yrsa', serif;
+}
+
+.container-fluid p{
+  font-size: 18px;
+}
+
+.container{
+font-family: 'Yrsa', serif;
+}
+
+.container p{
+  font-size: 18px
+}
+
 .overlay{
   color:transparent;
   height: auto;
@@ -43,15 +59,14 @@
   background-image: url(../images/s_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  width:100%;
 }
 
 .overlay2{
-  color:black;
-  opacity: 0.9.5;
   height: auto;
   position: relative;
-  width: auto;
   height:auto;
+  background-color: transparent;
 }
 
 #service-header{
