@@ -77,6 +77,7 @@ font-family: 'Yrsa', serif;
   color: white;
 }
 
+/* Whatwedo */
 
 /* form */
 #form{
@@ -85,9 +86,7 @@ font-family: 'Yrsa', serif;
   background-repeat: no-repeat;
   height: auto;
 }
-/* .form{
-  margin-left:20%;
-} */
+
 .input-one{
   display: inline;
 }
@@ -109,5 +108,28 @@ font-family: 'Yrsa', serif;
 }
 
 #social-icons{
-  padding-left:0%;
+  padding-left:2%;
+}
+#work8{
+  position: relative;
+}
+.overlay4{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.8;
+  width:90%;
+}
+.overlay-title{
+  color:white;
+  border: 2px solid #fff;
+  width:80%;
+  margin-left: 10%;
+  margin-top:9%;
+  height: 80%;
+}
+.overlay-title h1{
+  text-align: left;
+  text-transform: uppercase;
 }
