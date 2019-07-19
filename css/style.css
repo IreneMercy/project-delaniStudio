@@ -90,6 +90,18 @@ font-family: 'Yrsa', serif;
   height:75%;
   display: none;
 }
+.development{
+  position: relative;
+}
+.overlay-development{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color:transparent;
+  width:90%;
+  height:75%;
+  display: none;
+}
 /* form */
 #form{
   background-image: url(../images/c_image.jpg);

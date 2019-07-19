@@ -8,4 +8,13 @@ $(document).ready(function(){
     $(".design").slideToggle();
     $(".overlay-design").slideToggle();
   });
+  // development
+  $(".development").click(function(){
+    $(".development").slideToggle();
+    $(".overlay-development").slideToggle();
+  });
+  $(".overlay-development").click(function(){
+    $(".overlay-development").slideToggle();
+    $(".development").slideToggle();
+  });
 });
