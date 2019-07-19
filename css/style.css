@@ -78,29 +78,18 @@ font-family: 'Yrsa', serif;
 }
 
 /* Whatwedo */
-.design{
-  position:relative;
-}
-.overlay-design{
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  background-color:transparent;
-  width:90%;
-  height:75%;
+#design{
   display: none;
+  text-transform:capitalize;
 }
-.development{
-  position: relative;
-}
-.overlay-development{
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  background-color:transparent;
-  width:90%;
-  height:75%;
+
+#development{
   display: none;
+  text-transform: capitalize;
+}
+#products{
+  display: none;
+  text-transform: capitalize;
 }
 /* form */
 #form{

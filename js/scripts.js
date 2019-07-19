@@ -1,20 +1,30 @@
 $(document).ready(function(){
+  // Design
   $(".design").click(function(){
     $(".design").slideToggle();
-    $(".overlay-design").slideToggle();
+    $("#design").slideToggle();
   });
 
-  $(".overlay-design").click(function(){
+  $("#design").click(function(){
     $(".design").slideToggle();
-    $(".overlay-design").slideToggle();
+    $("#design").slideToggle();
   });
   // development
   $(".development").click(function(){
     $(".development").slideToggle();
-    $(".overlay-development").slideToggle();
+    $("#development").slideToggle();
   });
-  $(".overlay-development").click(function(){
-    $(".overlay-development").slideToggle();
+  $("#development").click(function(){
+    $("#development").slideToggle();
     $(".development").slideToggle();
+  });
+  // Product management
+  $(".products").click(function(){
+    $(".products").slideToggle();
+    $("#products").slideToggle();
+  });
+  $("#products").click(function(){
+    $("#products").slideToggle();
+    $(".products").slideToggle();
   });
 });
