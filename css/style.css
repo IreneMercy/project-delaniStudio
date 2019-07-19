@@ -100,16 +100,17 @@ font-family: 'Yrsa', serif;
 #work4box, #work2box, #work3box, #work1box, #work5box, #work6box, #work7box, #work8box{
   position: absolute;
   background-color:white;
-  opacity: 0.2;
+  opacity: 0.8;
   top: 0;
   bottom: 0;
   width:95%;
   display: none;
 }
-#work4box h2{
-  color:black;
-  text-align: center;
-  margin-top:25%;
+.work{
+  margin-top:30%;
+  font-family: 'Yrsa', serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 /* form */
 #form{
