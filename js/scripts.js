@@ -72,7 +72,4 @@ $(document).ready(function(){
    alert(" Dear " + email + ',' + " Your message has been recieved" + ',' + " thank you for getting in touch.");
   });
 
-
-
-
 });
