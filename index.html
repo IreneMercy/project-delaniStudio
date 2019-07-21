@@ -157,15 +157,15 @@
          <h1 class="text-center text-uppercase pt-3 pb-3 text-white">Contact us</h1>
          <div class="row">
            <div class="col-md-12">
-            <form class="form">
+            <form class="form" id="myform">
               <div class="input-one">
-                <input class="input-one" type="text" name="name"  placeholder="Name">
-                <input class="ml-5 text-white input-one" type="text" name="name" placeholder="Email">
+                <input class="input-one" id="name" type="text" name="name"  placeholder="Name" required>
+                <input class="ml-5 text-white input-one" id="email" type="email" name="name" placeholder="Email" required>
               </div>
               <div class="message pt-5">
-                <textarea class="textarea" name="name" rows="8" cols="62" placeholder="Your message here..."></textarea>
+                <textarea class="textarea" id="textarea" name="name" rows="8" cols="62" placeholder="Your message here..." required></textarea>
               </div>
-              <input class="input-submit" type="submit" name="submit" placeholder="Submit">
+              <input class="input-submit" id="submit" type="submit" name="submit" placeholder="Submit" onsubmit="getInTouch();">
             </form>
            </div>
          </div>

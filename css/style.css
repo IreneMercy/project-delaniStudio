@@ -152,12 +152,12 @@ font-family: 'Yrsa', serif;
   width:30%;
   background-color:black;
   opacity: 0.5;
+  border:2px solid #fff;
   border-radius: 12px;
   padding-top:1%;
   padding-bottom:1%;
   font-family: 20px;
   color:white;
-  font-weight: bold;
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -177,6 +177,9 @@ font-family: 'Yrsa', serif;
 ::placeholder{
   color: white;
   padding-left: 2%;
+}
+#name{
+  color: white;
 }
 
 #social-icons{

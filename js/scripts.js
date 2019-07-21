@@ -64,4 +64,15 @@ $(document).ready(function(){
 
 // Form
 
+  $("#myform").submit(function(event){
+   var name = $("input#name").val();
+   var email = $("input#email").val();
+   var message = $("textarea#textarea").val();
+
+   alert(" Dear " + email + ',' + " Your message has been recieved" + ',' + " thank you for getting in touch.");
+  });
+
+
+
+
 });
