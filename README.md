@@ -17,6 +17,13 @@
 
 
 ## Technologies Used
-#### jquery
+#### JQuery
 #### HTML
-#### Css
+#### CSS
+#### JavaScript
+
+## Copyright
+#### IreneMercy
+
+## Contact Details
+#### irenemercy700@gmail.com
