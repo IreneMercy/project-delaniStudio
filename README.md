@@ -16,6 +16,8 @@
 ## Link
 #### https://irenemercy.github.io/project-delaniStudio/
 
+## Dependencies
+#### MailChimp
 
 ## Technologies Used
 #### JQuery
