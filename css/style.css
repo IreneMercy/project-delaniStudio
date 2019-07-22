@@ -123,6 +123,7 @@ font-family: 'Yrsa', serif;
   background-color: black;
   opacity: 0.8;
   width:90%;
+  display: none;
 }
 .overlay-title{
   color:white;
@@ -131,6 +132,7 @@ font-family: 'Yrsa', serif;
   margin-left: 10%;
   margin-top:9%;
   height: 80%;
+  display: none;
 }
 .overlay-title h1{
   text-align: left;

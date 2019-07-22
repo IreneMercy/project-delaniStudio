@@ -62,6 +62,15 @@ $(document).ready(function(){
     });
   });
 
+  $(".work8").mouseover(function(){
+    $(".overlay4").show().mouseleave(function(){
+      $(".overlay4").hide();
+    });
+    $(".overlay-title").show().mouseleave(function(){
+      $("overlay-title").hide();
+    });
+
+  });
 // Form
 
   $("#myform").submit(function(event){
