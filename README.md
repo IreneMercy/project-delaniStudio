@@ -14,6 +14,7 @@
 #### On tour terminal run the command code. to open the project on your text editor
 
 ## Link
+#### https://irenemercy.github.io/project-delaniStudio/
 
 
 ## Technologies Used
