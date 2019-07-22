@@ -35,11 +35,17 @@ $(document).ready(function(){
     $("#work4box").show().mouseleave(function(){
       $("#work4box").hide();
     });
+    $(".overlay-title").show().mouseleave(function(){
+      $("overlay-title").hide();
+    });
   });
 
   $(".work2").mouseenter(function(){
     $("#work2box").show().mouseleave(function(){
       $("#work2box").hide();
+    });
+    $(".overlay-title").show().mouseleave(function(){
+      $("overlay-title").hide();
     });
   });
 
@@ -47,11 +53,17 @@ $(document).ready(function(){
     $("#work3box").show().mouseleave(function(){
       $("#work3box").hide();
     });
+    $(".overlay-title").show().mouseleave(function(){
+      $("overlay-title").hide();
+    });
   });
 
   $(".work1").mouseover(function(){
     $("#work1box").show().mouseleave(function(){
       $("#work1box").hide();
+    });
+    $(".overlay-title").show().mouseleave(function(){
+      $("overlay-title").hide();
     });
   });
 
@@ -59,17 +71,26 @@ $(document).ready(function(){
     $("#work5box").show().mouseleave(function(){
       $("#work5box").hide();
     });
+    $(".overlay-title").show().mouseleave(function(){
+      $("overlay-title").hide();
+    });
   });
 
   $(".work6").mouseover(function(){
     $("#work6box").show().mouseleave(function(){
       $("#work6box").hide();
     });
+    $(".overlay-title").show().mouseleave(function(){
+      $("overlay-title").hide();
+    });
   });
 
   $(".work7").mouseover(function(){
     $("#work7box").show().mouseleave(function(){
       $("#work7box").hide();
+    });
+    $(".overlay-title").show().mouseleave(function(){
+      $("overlay-title").hide();
     });
   });
 

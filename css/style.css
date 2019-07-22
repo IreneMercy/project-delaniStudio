@@ -99,18 +99,20 @@ font-family: 'Yrsa', serif;
 }
 #work4box, #work2box, #work3box, #work1box, #work5box, #work6box, #work7box, #work8box{
   position: absolute;
-  background-color:white;
-  opacity: 0.8;
-  top: 0;
   bottom: 0;
-  width:95%;
+  top: 0;
+  background-color: black;
+  opacity: 0.8;
+  width:90%;
   display: none;
+  border: 2px solid #fff;
 }
 .work{
   margin-top:30%;
   font-family: 'Yrsa', serif;
-  font-weight: bold;
+  font-weight: bolder;
   text-transform: uppercase;
+  color: white;
 }
 
 #work8{
@@ -124,6 +126,7 @@ font-family: 'Yrsa', serif;
   opacity: 0.8;
   width:90%;
   display: none;
+  color: white;
 }
 .overlay-title{
   color:white;
