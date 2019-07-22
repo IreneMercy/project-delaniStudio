@@ -21,7 +21,7 @@ $(document).ready(function(){
   });
   // Product management
   $(".products").click(function(){
-    $(".products").hide().toggle();
+    $(".products").slideToggle();
     $("#products").slideToggle();
   });
   $("#products").click(function(){
